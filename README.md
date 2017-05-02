@@ -30,7 +30,7 @@ description: "I want to make this dynamic and inherit the {{ site.year }} from t
 ### debug
 [See filter](plugins/debug.rb)
 
-This is a debugging filter that can be used to inspect underlying data. 
+This is a debugging filter that can be used to inspect underlying data. Make sure that you have the `pry` and `rb-readline` gems installed before you use this plugin. You will also need to restart your server after testing the filter.
 
 Use in a few ways:
 ```
