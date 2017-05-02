@@ -1,5 +1,5 @@
 # jekyll-plugins
-A collection of useful Jekyll plugins
+A collection of useful Jekyll plugins. To use any of these plugins in your application, add the `.rb` file to your `_plugins` directory.
 
 
 ### liquify
