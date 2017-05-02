@@ -4,7 +4,7 @@ A collection of useful Jekyll plugins
 
 ### liquify
 
-[See filter](plugins/liquify.rb)
+[See filter >>](plugins/liquify.rb)
 
 This is a really useful filter. It will parse liquid syntax after the initial render cycle. This is particularly useful if you want to use liquid syntax in front matter. For example, you have a file, landing.md:
 
@@ -28,7 +28,7 @@ description: "I want to make this dynamic and inherit the {{ site.year }} from t
 ```
 
 ### debug
-[See filter](plugins/debug.rb)
+[See filter >>](plugins/debug.rb)
 
 This is a debugging filter that can be used to inspect underlying data. Make sure that you have the `pry` and `rb-readline` gems installed before you use this plugin. You will also need to restart your server after testing the filter.
 
@@ -40,7 +40,7 @@ Use in a few ways:
 ```
 
 ### shuffle
-[See filter](plugins/shuffle.rb)
+[See filter >>](plugins/shuffle.rb)
 
 This filter takes an array, randomly shuffles it, and returns the shuffled array. 
 
